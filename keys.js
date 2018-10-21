@@ -5,7 +5,3 @@ exports.spotify = {
   secret: process.env.SPOTIFY_SECRET
 };
 
-require("dotenv").config();
-const keys = require("./keys.js");
-const spotify = new Spotify(keys.spotify);
-const Spotify = require('node-spotify-api');
